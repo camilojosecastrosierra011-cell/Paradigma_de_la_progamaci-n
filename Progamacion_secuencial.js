@@ -1,0 +1,20 @@
+let nombre = "Coll";
+let edad = 25;
+let apellido = "De Jesus";
+let numero = 9;
+
+function sumar (a, b){
+    return a + b ;
+}
+    function restar (a, b ) {
+        let operacion = a - b ;
+        return operacion; 
+    }
+
+    console.log("El resultado de la suma es: " + sumar(numero,edad))
+    let ResultadoResta = restar (6, 9)
+
+    console.log("Resultado de la resta: " + ResultadoResta);
+
+
+console.log("Nombre completo: " + nombre + " " + apellido + ", Edad: " + edad);
